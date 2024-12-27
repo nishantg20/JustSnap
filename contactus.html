@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Amazon Clone</title>
+    <link rel="stylesheet" href="style.css"> 
+    <style>
+        
+        .contact-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .contact-form {
+            margin-top: 20px;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        .form-group label {
+            display: block;
+            font-weight: bold;
+        }
+        .form-group input[type="text"],
+        .form-group input[type="email"],
+        .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .form-group textarea {
+            height: 150px;
+        }
+        .form-group input[type="submit"] {
+            background-color: #f90;
+            color: #fff;
+            border: none;
+            padding: 12px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        .form-group input[type="submit"]:hover {
+            background-color: #ffaa00;
+        }
+    </style>
+</head>
+<body>
+    <header>
+
+    <!--nav-->
+    
+        <div class="navbar">
+            <div class="nav-logo">
+                <div class="logo"></div>
+            </div>
+            <div class="nav-address">
+                 <p class="add-first">Deliver to</p>
+                 <div class="add-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="add-second">india</p>
+                    </div>
+            </div>
+            <div class="nav-search">
+                <select class="search-select">
+                    <option>ALL</option>
+                    <option>Arts & Crafts</option>
+                    <option>Books</option>
+                    <option>Computers</option>
+                    <option>Deals</option>
+                    <option>Digital Music</option>
+                    <option>Electronics</option>
+                    <option>Men's Fashion</option>
+                    <option>Sports & Outdoors</option>
+                    <option>Video Games</option>
+                </select>
+                <input class="h" placeholder="Search Amazon">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <div class="nav-signin">
+                <p><span>Hello, sign in</span></p>
+                <p class="nav-second">Account & Lists</p>
+            </div>
+            <div class="nav-icon">
+                <i class="fa-solid fa-caret-down"></i>
+            </div>
+            <div class="nav-return">
+                <p><span>Returns</span></p>
+                <p class="nav-second">& Orders</p>
+            </div>
+            <div class="nav-cart">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            
+        </div>
+    
+        <div class="panel">
+            <div class="panel-all">
+                <i class="fa-solid fa-bars"></i>
+                ALL
+            </div>
+            <div class="panel-ops">
+                <p><a href="index.html"  target="_self">    Home</a></p>
+                <p><a href="index.html" id="#service" target="_self">Customer Service</a></p>
+                <p>Registry</p>
+                <p>Gift Cards</p>
+                <p>Sell</p>
+                <p><a href="about.html"  target="_self">About Us</a></p>
+                <p><a href="#contact" class="contact-container">Contact Us</a></p>
+            </div>
+            <div class="Panel-deals">
+                Shop deals in electronics 
+            </div>
+        </div>
+    
+        </header>
+        <!--=====================contactus==============-->
+    <div class="contact-container">
+        <h1>Contact Us</h1>
+        <p>If you have any questions or concerns, please fill out the form below and we'll get back to you as soon as possible.</p>
+        <form class="contact-form" action="#" method="POST">
+            <div class="form-group">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+    <!--===============footer==========================-->
+    <footer>
+        <div class="foot-panel1">
+            Back to Top
+        </div>
+        <div class="foot-panel2">
+            <ul>
+                <p>Get to Know Us</p>
+                <a>Carrers</a>
+                <a>Blog</a>
+                <a>About Amazon</a>
+                <a>Investor Relations</a>
+                <a>Amazon Devices</a>
+                <a>Amazon Science</a>
+            </ul>
+            <ul>
+                <p>Make Money with Us</p>
+                <a>Sell products on Amazon</a>
+                <a>Sell on Amzon Business</a>
+                <a>Sell apps on Amzon</a>
+                <a>Become an Affiliate</a>
+                <a>Advertise Your Products</a>
+                <a>Self-Publish with Us</a>
+            </ul>
+            <ul>
+                <p>Let Us Help You</p>
+                <a>COVID-19 and Amazon</a>
+                <a>Your Account</a>
+                <a>Returns Centre</a>
+                <a>100% Purchase Protection</a>
+                <a>Amazon App Download</a>
+                <a>Amazon App Download</a>
+                <a>Help</a>
+            </ul>
+            <ul>
+                <p>Connect with Us</p>
+                <a>Facebook</a>
+                <a>Twitter</a>
+                <a>Instagram</a>
+            </ul>
+        </div>
+        <div class="foot-panel3">
+            <div class="logo"></div>
+        </div>
+        <div class="foot-panel4"><br>
+            <a>&copy; 2024 Nishant Gupta | All Rights Reserved</a>
+            <div class="pages">
+                <a>Conditions of Use </a>
+                <a> Privacy Notice</a>
+                <a>Your Ads Privacy Choices</a>
+            </div>
+            <div class="copyright">
+                &copy; 1996-2023, Amazon.com, Inc. or its affiliates
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
